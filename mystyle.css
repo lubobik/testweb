@@ -1,0 +1,175 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: saddlebrown;
+    font-family: verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: Georgia, serif;
+    margin: 10px;
+}
+
+
+header {
+    overflow: hidden;
+}
+
+/*.nav is for the header */
+.nav {
+    background-color: #726E6E;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+/* font in nav abr */
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+/* color change on hover */
+.nav a:hover {
+    background-color: #DA9999;
+    color: white;
+}
+
+/* adds a different color for the active site in nav */
+.nav a.active {
+    background-color: #C35C5C;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    max-width: 500px;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #726E6E;
+    background-color: #726E6E;
+    font-family: Verdana, sans-serif;
+        color: white;
+}
+
+th {
+    text-align: center
+        
+}
+
+/* changes the color in table for every even entry*/
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+        color: black;
+
+}
+
+/* .left and .right are for text aligns in the table */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .dist is for districts */
+.dist {
+    background-color: #A8A5A5;
+    overflow: hidden;
+    position: sticky;
+    top: 44px;
+}
+
+/* Style the links inside the navigation bar */
+.dist a {
+    float: left;
+    color: #f2f2f2;
+    padding: 5px;
+    padding-left: 12px;
+    font-size: 12px;
+    text-decoration-line: none;
+}
+
+/* color change on hover */
+.dist a:hover {
+    background-color: #DA9999;
+    color: white;
+}
+
+video {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%
+}
+
+
+footer {
+    font-size: 12px;
+    padding-top: 50px;
+    bottom: 0;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+div > p {
+    text-align: center;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-basis: 50%;
+        flex-wrap: wrap;
+
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.column > img {
+    display: block;
+}
